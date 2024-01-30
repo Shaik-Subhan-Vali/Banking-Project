@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T18:10:32 IST" name="Default suite" finished-at="2024-01-29T18:11:15 IST" duration-ms="42305">
+    <groups>
+    </groups>
+    <test started-at="2024-01-29T18:10:32 IST" name="Default test" finished-at="2024-01-29T18:11:15 IST" duration-ms="42305">
+      <class name="Banking_Project.TestScript06">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:32 IST" name="setUp" finished-at="2024-01-29T18:10:43 IST" duration-ms="10828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase06(java.lang.String,java.lang.String)[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:43 IST" name="testCase06" data-provider="GuruTest" finished-at="2024-01-29T18:10:45 IST" duration-ms="1911" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr550610]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pEsupyp]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+at Banking_Project.TestScript06.testCase06(TestScript06.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:45 IST" name="tearDown" finished-at="2024-01-29T18:10:45 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:45 IST" name="setUp" finished-at="2024-01-29T18:10:54 IST" duration-ms="8350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase06(java.lang.String,java.lang.String)[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:54 IST" name="testCase06" data-provider="GuruTest" finished-at="2024-01-29T18:10:55 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:55 IST" name="tearDown" finished-at="2024-01-29T18:10:55 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:10:55 IST" name="setUp" finished-at="2024-01-29T18:11:03 IST" duration-ms="8083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase06(java.lang.String,java.lang.String)[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:11:03 IST" name="testCase06" data-provider="GuruTest" finished-at="2024-01-29T18:11:04 IST" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:11:04 IST" name="tearDown" finished-at="2024-01-29T18:11:05 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:11:05 IST" name="setUp" finished-at="2024-01-29T18:11:13 IST" duration-ms="8878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase06(java.lang.String,java.lang.String)[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:11:13 IST" name="testCase06" data-provider="GuruTest" finished-at="2024-01-29T18:11:14 IST" duration-ms="1055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Banking_Project.TestScript06@206a70ef]" started-at="2024-01-29T18:11:15 IST" name="tearDown" finished-at="2024-01-29T18:11:15 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Banking_Project.TestScript06 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
